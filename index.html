@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/carta-galerica.css">
+    <title>Catalogo Menu</title>
+</head>
+<body>
+   
+            
+    <nav class="menu">
+
+                <div class="logo">
+                    <a href="index.html" class="link-logo">
+                        <img class="logo" src="#">
+                    </a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#" >La carta</a></li>
+                        <li><a href="#" >Nosotros</a></li>
+                        <li><a href="./locales.html" >Locales</a></li>
+                        <li><a href="#" >Contacto</a></li>
+                        <li><a href="#" >Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+    <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+        
+    <header>
+        <div class="container-banner">
+            <h1>La Carta</h1>
+            <!--<p>Descubre nuestros platos</p>
+            <button><a class="btn boton-transparente wow slideInLeft" data-wow-duration="2s" href="">Ver Carta</a></button>-->
+        </div>
+    </header>
+
+    <div id="nav-bg"></div>
+
+  
+        
+    
+    <main>
+    <div class="main-wrapper">
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+            <button class="btn" onclick="filterSelection('drinks')"> Bebidas</button>
+            <button class="btn" onclick="filterSelection('fastFood')">Fast-food</button>
+            <button class="btn" onclick="filterSelection('dessert')"> Postres</button>
+        </div>
+
+          <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column fastFood">
+                <div class="content">
+                    <img src="./images/burguer.jpg" alt="burguer" style="width:100%">
+                    <h4>Hamburguesa</h4>
+                    <p>S/ 25</p>
+                    <button class="btn-agregar"><a href=#>Ver mas</a></button>
+                </div>
+            </div>
+            <div class="column drinks">
+            <div class="content">
+                <img src="./images/beer.jpg" alt="beer" style="width:100%">
+                <h4>Cerveza</h4>
+                <p>S/ 15</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+        
+            <div class="column dessert">
+            <div class="content">
+                <img src="/images/cookie.jpg" alt="cookies" style="width:100%">
+                <h4>Galletas</h4>
+                <p>S/ 5</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+            <div class="column fastFood">
+            <div class="content">
+                <img src="./images/pizza.jpg" alt="pizza" style="width:100%">
+                <h4>Pizza</h4>
+                <p>S/ 25.</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+            <div class="column drinks">
+            <div class="content">
+                <img src="./images/milkshake.jpg" alt="milkshake" style="width:100%">
+                <h4>Milkshakes</h4>
+                <p>S/ 10</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+        
+            <div class="column dessert">
+            <div class="content">
+                <img src="./images/cupcake.jpg" alt="cupcake" style="width:100%">
+                <h4>Cupcakes</h4>
+                <p>S/ 5</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+            <div class="column fastFood">
+            <div class="content">
+                <img src="./images/triple.jpg" alt="sandwich" style="width:100%">
+                <h4>Triple</h4>
+                <p>S/ 15</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+            <div class="column drinks">
+            <div class="content">
+                <img src="./images/soda.jpg" alt="soda" style="width:100%">
+                <h4>Gaseosas</h4>
+                <p>S/ 5</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+            </div>
+            </div>
+            <div class="column dessert">
+                <div class="content">
+                <img src="./images/icecream.jpg" alt="icecream" style="width:100%">
+                <h4>Helado</h4>
+                <p>S/ 5</p>
+                <button class="btn-agregar"><a href=#>Ver mas</a></button>
+
+                </div>
+            </div>
+        </div>
+  <!-- END GRID -->
+    </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
