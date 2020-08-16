@@ -1,0 +1,58 @@
+nav {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav .logo{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: left;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+  }
+  
+  nav li{
+      display: inline-block;
+      padding: 2em;
+      text-align: center;
+      transition: all .2s;
+  }
+  
+  nav li:last-child {
+    padding-right: 4em;
+    margin-right:0
+  }
+  
+  nav a{
+    color: rgba(230,154,35,1);
+    transition: all .3s;
+    font-size:0.9rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.15rem;
+    word-spacing:0.3rem
+  }
+  
+  nav a:hover {
+    color: #DDD;
+  }
+  
+  
+  /*el id */
+  #nav-bg {
+    background: #222;
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }

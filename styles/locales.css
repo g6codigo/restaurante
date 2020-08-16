@@ -1,0 +1,44 @@
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.local{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.local-container{
+    flex:50%
+}
+
+
+.local-imagen img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.local-container-text{
+    padding:5%;
+}
+
+
+.local-container-text h2{
+    color:#824C00;
+}
+
+
+/*banner imagen*/
+
+header {
+   
+    background-image: url("/images/cover-locales.jpg");
+    background-position: center;
+   
+
+  }

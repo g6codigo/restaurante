@@ -48,12 +48,12 @@ for (var i = 0; i < btns.length; i++) {
 
 //menu slider
 
-var header = $('header');
-var range = 200;
+let header = $('header');
+let range = 200;
 
 $(window).on('scroll', function () {
   
-  var scrollTop = $(this).scrollTop(),
+  let scrollTop = $(this).scrollTop(),
       height = header.outerHeight(),
       offset = height / 2,
       calc = 1 - (scrollTop - offset + range) / range;
