@@ -56,3 +56,40 @@ nav {
     top: 0;
     z-index: 1;
   }
+
+  /*banner*/
+header {
+  position: relative;
+  background-image: url("/images/imagen2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding:15em 0 8em;
+  z-index: 2;
+  max-width: 100%;
+  height:90vh;
+}
+
+ header h1 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-align: center;
+    color:#FFF;
+    margin:0;
+   
+}
+
+header p{
+  font-size:1.3rem;
+  color:#FFF492;
+  line-height:1.5;
+}
+
+header button{
+  margin: 3% auto;
+  border: #FFC53D;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  padding: 5px 10px;
+}

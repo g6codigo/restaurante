@@ -6,6 +6,10 @@
     text-align: right;
 }
 
+.flex{
+    display: flex;
+}
+
 .local{
     display:flex;
     flex-direction: row;
@@ -36,9 +40,6 @@
 /*banner imagen*/
 
 header {
-   
     background-image: url("/images/cover-locales.jpg");
     background-position: center;
-   
-
   }
